@@ -33,8 +33,9 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'better_errors', '~> 2.4'
+
 gem 'bulma-rails', '~> 0.6.0'
+gem 'simple_form', '~> 5.0', '>= 5.0.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -49,6 +50,7 @@ group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'guard', '~> 2.16', '>= 2.16.2'
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'better_errors', '~> 2.4'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
